@@ -1,0 +1,17 @@
+name: gem_puzzle
+description: "Everpuzz 2本目(ジェムパズル×動物育成)のパズルロジック・面生成・検証。UI(Flutter)は別途この上に載せる。"
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  puzzle_core:
+    git:
+      url: https://github.com/zka32101/puzzle_core.git
+      ref: 2c06cca63ed4a90ad930c1c3fe4575f9807f0494 # puzzle_core の固定版
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.0
